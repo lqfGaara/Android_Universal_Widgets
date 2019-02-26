@@ -55,7 +55,7 @@ allprojects {
  ```
 
  名称  | 作用
-    --   |:--:
+    --|:--
    buttonHeight | 按钮的高度
    buttonWidth  |按钮的宽度
    buttonTextColor  |文字颜色
