@@ -36,7 +36,7 @@ allprojects {
  ## 演示效果图 
   >![](https://github.com/lqfGaara/MySDk/blob/master/example.gif)
 
-'''
+ ```
 <lqf.com.newbutton.PullDownSelectionButton
         android:layout_marginTop="20dp"
         android:layout_below="@id/amountView"
@@ -49,6 +49,7 @@ allprojects {
         app:buttonWidth="80dp"
         app:buttonTextColor="#666666"
         app:textSize="20sp" />
-'''
+ ```
+
 名称  | 作用
  --|--|
