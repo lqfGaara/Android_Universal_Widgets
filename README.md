@@ -16,7 +16,7 @@ allprojects {
 	        implementation 'com.github.lqfGaara:MySDk:v1.2'
 	}
   ```
-  ![](https://github.com/lqfGaara/MySDk/blob/master/useImag.png)
+  ![](https://github.com/lqfGaara/MySDk/blob/master/useImag.jpg)
   ### step2
    ```
   <lqf.com.newbutton.AmountView
