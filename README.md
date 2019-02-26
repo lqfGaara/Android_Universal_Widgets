@@ -53,6 +53,11 @@ allprojects {
         app:buttonTextColor="#666666"
         app:textSize="20sp" />
  ```
+姓名|技能|排行
+--|:--:|--:
+刘备|哭|大哥
+关羽|打|二哥
+张飞|骂|三弟
 
  名称  | 作用
     --|:--
