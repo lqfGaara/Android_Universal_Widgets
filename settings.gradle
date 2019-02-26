@@ -1,1 +1,1 @@
-include ':app', ':newbutton', ':pulldownchoosebutton'
+include ':app', ':newbutton'

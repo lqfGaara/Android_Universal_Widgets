@@ -10,4 +10,12 @@
         <attr name="etTextColor" format="color"></attr>
         <attr name="btnTextSize" format="dimension"/>
     </declare-styleable>
+    <declare-styleable name="PullDownSelectionButton">
+        <attr name="buttonWidth" format="dimension"></attr>
+        <attr name="buttonHeight" format="dimension"></attr>
+        <attr name="buttonTextColor" format="color"></attr>
+        <attr name="background" format="reference"></attr>
+        <attr name="text" format="string"></attr>
+        <attr name="textSize" format="dimension"></attr>
+    </declare-styleable>
 </resources>

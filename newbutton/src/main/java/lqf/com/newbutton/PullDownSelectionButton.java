@@ -1,4 +1,4 @@
-package lqf.com.pulldownchoosebutton;
+package lqf.com.newbutton;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,7 +11,6 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.List;
 
