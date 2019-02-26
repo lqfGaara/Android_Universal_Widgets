@@ -29,12 +29,12 @@ allprojects {
         app:tvWidth="60dp"
         android:layout_height="50dp"/>
    ```
-   名称  | 作用
-    --   |:--:
-   btnTextSize | 按钮的大小
-   etTextColor  |中间文字的颜色
-   btnWidth  |每一个按钮的宽度
-   tvWidth  | 中间文字的宽度
+  名称|作用
+   --|:--:
+   btnTextSize|按钮的大小
+   etTextColor|中间文字的颜色
+   btnWidth|每一个按钮的宽度
+   tvWidth|中间文字的宽度
  ## 演示效果图 
   >![](https://github.com/lqfGaara/MySDk/blob/master/example.gif)
 
@@ -53,17 +53,13 @@ allprojects {
         app:buttonTextColor="#666666"
         app:textSize="20sp" />
  ```
-姓名|技能
---|:--:
-刘备|哭
-关羽|打
-张飞|骂
 
- 名称  | 作用
-    --|:--
-   buttonHeight | 按钮的高度
-   buttonWidth  |按钮的宽度
-   buttonTextColor  |文字颜色
-   textSize  | 中间文字的大小
-   text | 需要默认显示的文字
-   background | 按钮的背景
+
+  名称|作用
+   --|:--:
+   buttonHeight|按钮的高度
+   buttonWidth|按钮的宽度
+   buttonTextColor|文字颜色
+   textSize 中间文字的大小
+   text 需要默认显示的文字
+   background|按钮的背景
