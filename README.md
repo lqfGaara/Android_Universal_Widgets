@@ -49,7 +49,7 @@ allprojects {
         app:background="@drawable/bt_background"
         app:buttonHeight="50dp"
         app:buttonWidth="80dp"
-	app:text="123"
+        app:text="123"
         app:buttonTextColor="#666666"
         app:textSize="20sp" />
  ```
