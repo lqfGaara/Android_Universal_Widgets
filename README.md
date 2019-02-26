@@ -30,7 +30,7 @@ allprojects {
         android:layout_height="50dp"/>
    ```
    名称  | 作用
-    --   |--|
+    --   |:--:
    btnTextSize | 按钮的大小
    etTextColor  |中间文字的颜色
    btnWidth  |每一个按钮的宽度
@@ -55,7 +55,7 @@ allprojects {
  ```
 
  名称  | 作用
-    --   |--|
+    --   |:--:
    buttonHeight | 按钮的高度
    buttonWidth  |按钮的宽度
    buttonTextColor  |文字颜色
