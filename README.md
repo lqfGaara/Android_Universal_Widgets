@@ -29,10 +29,12 @@ allprojects {
         app:tvWidth="60dp"
         android:layout_height="50dp"/>
    ```
-  * btnTextSize 按钮的大小
-  * etTextColor 中间文字的颜色
-  * btnWidth 每一个按钮的宽度
-  * tvWidth  中间文字的宽度
+   名称  | 作用
+    --   |--|
+   btnTextSize | 按钮的大小
+   etTextColor  |中间文字的颜色
+   btnWidth  |每一个按钮的宽度
+   tvWidth  | 中间文字的宽度
  ## 演示效果图 
   >![](https://github.com/lqfGaara/MySDk/blob/master/example.gif)
 
@@ -44,12 +46,19 @@ allprojects {
         android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/bt_background"
+        app:background="@drawable/bt_background"
         app:buttonHeight="50dp"
         app:buttonWidth="80dp"
+	app:text="123"
         app:buttonTextColor="#666666"
         app:textSize="20sp" />
  ```
 
-名称  | 作用
- --|--|
+ 名称  | 作用
+    --   |--|
+   buttonHeight | 按钮的高度
+   buttonWidth  |按钮的宽度
+   buttonTextColor  |文字颜色
+   textSize  | 中间文字的大小
+   text | 需要默认显示的文字
+   background | 按钮的背景
