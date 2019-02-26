@@ -35,8 +35,7 @@ allprojects {
    etTextColor|中间文字的颜色
    btnWidth|每一个按钮的宽度
    tvWidth|中间文字的宽度
- ## 演示效果图 
-  >![](https://github.com/lqfGaara/MySDk/blob/master/example.gif)
+ 
 
  ```
 <lqf.com.newbutton.PullDownSelectionButton
@@ -63,3 +62,6 @@ allprojects {
    textSize|中间文字的大小
    text|需要默认显示的文字
    background|按钮的背景
+
+## 演示效果图 
+  >![](https://github.com/lqfGaara/MySDk/blob/master/example.gif)
