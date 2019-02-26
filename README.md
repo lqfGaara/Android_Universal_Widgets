@@ -60,6 +60,6 @@ allprojects {
    buttonHeight|按钮的高度
    buttonWidth|按钮的宽度
    buttonTextColor|文字颜色
-   textSize 中间文字的大小
-   text 需要默认显示的文字
+   textSize|中间文字的大小
+   text|需要默认显示的文字
    background|按钮的背景
