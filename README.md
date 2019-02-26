@@ -35,3 +35,20 @@ allprojects {
   * tvWidth  中间文字的宽度
  ## 演示效果图 
   >![](https://github.com/lqfGaara/MySDk/blob/master/example.gif)
+
+'''
+<lqf.com.newbutton.PullDownSelectionButton
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/amountView"
+        android:id="@+id/pull_bt"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_background"
+        app:buttonHeight="50dp"
+        app:buttonWidth="80dp"
+        app:buttonTextColor="#666666"
+        app:textSize="20sp" />
+'''
+名称  | 作用
+ --|--|
