@@ -20,7 +20,7 @@ public class AmountView extends LinearLayout implements View.OnClickListener, Te
 
     private static final String TAG = "lqf.com.newsdk.AmountView";
     private int amount = 1; //购买数量
-    private int goods_storage = 1; //商品库存
+    private int goods_storage = -1; //商品库存
 
     private OnAmountChangeListener mListener;
 
@@ -85,13 +85,16 @@ public class AmountView extends LinearLayout implements View.OnClickListener, Te
                 etAmount.setText(amount + "");
             }
         } else if (i == R.id.btnIncrease) {
-            if (amount < goods_storage) {
+            if (goods_storage>0&&amount < goods_storage) {
+                amount++;
+                etAmount.setText(amount + "");
+            }else if (goods_storage==-1){
                 amount++;
                 etAmount.setText(amount + "");
             }
         }
         etAmount.clearFocus();
-      /*  if (mListener != null) {
+      /* if (mListener != null) {
             mListener.onAmountChange(this, amount);
         }*/
     }
