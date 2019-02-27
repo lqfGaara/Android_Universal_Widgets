@@ -8,6 +8,7 @@
         <!--<attr name="tvColor" format="color"/>-->
         <attr name="tvTextSize" format="dimension"/>
         <attr name="etTextColor" format="color"></attr>
+        <attr name="btTextColor" format="color"></attr>
         <attr name="btnTextSize" format="dimension"/>
     </declare-styleable>
     <declare-styleable name="PullDownSelectionButton">

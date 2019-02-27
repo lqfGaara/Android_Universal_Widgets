@@ -2,6 +2,7 @@ package lqf.com.newbutton;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.Color;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.AttributeSet;
@@ -48,6 +49,7 @@ public class AmountView extends LinearLayout implements View.OnClickListener, Te
         int tvTextSize = obtainStyledAttributes.getDimensionPixelSize(R.styleable.AmountView_tvTextSize, 0);
         int btnTextSize = obtainStyledAttributes.getDimensionPixelSize(R.styleable.AmountView_btnTextSize, 0);
         int ettextclolor=obtainStyledAttributes.getColor(R.styleable.AmountView_etTextColor,-1);
+        int bttextclolor=obtainStyledAttributes.getColor(R.styleable.AmountView_btTextColor,Color.parseColor("#666666"));
         obtainStyledAttributes.recycle();
         etAmount.setTextColor(ettextclolor);
         LayoutParams btnParams = new LayoutParams(btnWidth, LayoutParams.MATCH_PARENT);
@@ -57,7 +59,8 @@ public class AmountView extends LinearLayout implements View.OnClickListener, Te
             btnDecrease.setTextSize(TypedValue.COMPLEX_UNIT_PX, btnTextSize);
             btnIncrease.setTextSize(TypedValue.COMPLEX_UNIT_PX, btnTextSize);
         }
-
+        btnDecrease.setTextColor(bttextclolor);
+        btnIncrease.setTextColor(bttextclolor);
         LayoutParams textParams = new LayoutParams(tvWidth, LayoutParams.MATCH_PARENT);
         etAmount.setLayoutParams(textParams);
         if (tvTextSize != 0) {
