@@ -21,7 +21,7 @@ public class AmountView extends LinearLayout implements View.OnClickListener, Te
     private static final String TAG = "lqf.com.newsdk.AmountView";
     private int amount = 1; //购买数量
     private int goods_storage = -1; //商品库存
-
+    private int minAmount = 0; //最小值
     private OnAmountChangeListener mListener;
 
     private EditText etAmount;
@@ -80,6 +80,9 @@ public class AmountView extends LinearLayout implements View.OnClickListener, Te
         this.amount = amount;
         etAmount.setText(amount + "");
     }
+    public void setMinAmount(int minAmount) {
+        this.minAmount = minAmount;
+    }
     public int  getAmount() {
         return amount;
     }
@@ -87,7 +90,7 @@ public class AmountView extends LinearLayout implements View.OnClickListener, Te
     public void onClick(View v) {
         int i = v.getId();
         if (i == R.id.btnDecrease) {
-            if (amount >= 1) {
+            if (amount >minAmount) {
                 amount--;
                 etAmount.setText(amount + "");
             }
