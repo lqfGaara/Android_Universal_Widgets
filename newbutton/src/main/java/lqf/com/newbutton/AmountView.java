@@ -78,7 +78,9 @@ public class AmountView extends LinearLayout implements View.OnClickListener, Te
 
     public void setAmount(int amount) {
         this.amount = amount;
+        etAmount.removeTextChangedListener(this);
         etAmount.setText(amount + "");
+        etAmount.addTextChangedListener(this);
     }
     public void setMinAmount(int minAmount) {
         this.minAmount = minAmount;
